@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+}
+.header__nav {
+  margin: 0 -20px;
+}
+.header__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header__nav--item {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  font-weight: 400;
+  font-size: 1.125rem;
+  display: block;
+}
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+}
